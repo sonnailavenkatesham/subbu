@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $0
+echo "This file is: $0"
