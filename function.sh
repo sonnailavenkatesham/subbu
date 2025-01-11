@@ -1,7 +1,11 @@
 #!/bin/bash
 function (){
-    echo "$1 is a good boy"
+    if [ $1 -eq 0 ];
+    then
+        echo "$2 SUCCESS"
+    else
+        echo "$2 FAILED "
 }
 sudo apt upadte
 sudo apt install ngin
-function $?
+function $? "install nginx"
