@@ -8,5 +8,5 @@ function (){
     fi
 }
 #sudo apt update &>>/tmp/$0
-sudo apt install nginx &>>/tmp/$0
+sudo apt install nginx &>>/tmp/web.log
 function $? "install nginx"
