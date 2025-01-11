@@ -3,5 +3,5 @@ function (){
     echo "$1 is a good boy"
 }
 sudo apt upadte
-sudo apt install nginx
+sudo apt install ngin
 function $?
