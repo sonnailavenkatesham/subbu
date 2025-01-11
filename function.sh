@@ -3,4 +3,5 @@ function (){
     echo "$1 is a good boy"
 }
 
-function
+function 
+echo "$1"
