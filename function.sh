@@ -7,6 +7,6 @@ function (){
         echo "$2 FAILED "
     fi
 }
-sudo apt update
-sudo apt install nginx
+sudo apt update &>>/tmp/$0
+sudo apt install nginx &>>/tmp/$0
 function $? "install nginx"
