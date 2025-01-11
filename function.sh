@@ -5,6 +5,7 @@ function (){
         echo "$2 SUCCESS"
     else
         echo "$2 FAILED "
+    fi
 }
 sudo apt upadte
 sudo apt install ngin
