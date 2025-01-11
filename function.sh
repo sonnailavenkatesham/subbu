@@ -8,5 +8,5 @@ function (){
     fi
 }
 sudo apt upadte
-sudo apt install ngin
+sudo apt install nginx
 function $? "install nginx"
