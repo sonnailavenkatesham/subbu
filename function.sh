@@ -1,7 +1,6 @@
 #!/bin/bash
 function (){
-    echo "suresh is a good boy"
-    echo "$1"
+    echo "$1 is a good boy"
 }
 
 function
